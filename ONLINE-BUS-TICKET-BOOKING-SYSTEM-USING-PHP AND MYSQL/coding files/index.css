@@ -1,0 +1,22 @@
+/* *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+body{
+    height: 100vh;
+    background-color: blue;
+    width: 100%;
+}
+nav{
+    background-color: #edeae2;
+    box-shadow:0 0 40px black;
+}
+
+.img-fluid img{
+    object-fit: cover;
+    position: relative;
+} */
+
+

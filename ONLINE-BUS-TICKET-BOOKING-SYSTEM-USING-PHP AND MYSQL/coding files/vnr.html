@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+<head>
+ <title>Cards</title>
+ <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
+</head>
+
+<style type="text/css">
+
+
+*{
+box-sizing: border-box;
+ margin: 0px;
+ padding: 0px;
+}
+body{
+ font-family: sans-serif;
+ height: 100vh;
+ background-color: rgb(240, 206, 162);
+ overflow: hidden;
+}
+nav{
+        background-color: white;
+        box-shadow:0 0 10px black;
+        position: sticky;
+        border-bottom: 1px solid black;
+        }
+.card-container{
+    width: 1000px;
+    margin: auto;
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+ .card{
+    width: 300px;
+    background-color:rgb(233, 28, 28);
+    text-align: center;
+    font-size: 16px;
+    overflow: hidden;
+    box-shadow: 2px 2px 5px black;
+    border-radius: 5px;
+    margin: 2%; 
+    } 
+.des{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.des h3{
+    margin-top: 5px;
+    padding: 5px;
+    font-weight: bold;
+    /* font-size: 5px; */
+    color: #fff;
+}
+.des p{
+    padding: .5px;
+    font-weight: lighter;
+    color:aliceblue;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+ .btn{
+  margin-top: 4px;
+  margin-bottom: 4px;
+  background-color: black;
+  color: white;
+  cursor: pointer;
+  border-radius: 10px;
+  padding:10px;
+}
+
+</style>
+<body>
+  <header class="header">
+    <nav class="navbar navbar-expand-lg navbar-light ">
+        <div class="container">
+            <a href="" class="navbar-brand">
+                <h3>MADHAN BUS</h3>
+            </a>
+            <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#mynav" aria-controls="mynav" aria-expanded="false" aria-label="Toggler navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="mynav">
+                <ul class="navbar-nav ms-auto">
+                    
+                </ul>
+                <a href="busroutes.html" class="btn    btn-primary rounded-pill ms-auto ps-4 pe-4" style="border-radius: 50% ;">BACK</a>
+            </div>
+        </div>
+
+    </nav>
+</header>
+
+<div class="card-container">
+    <div class="card">
+        <img src="./images/bus2.jpg" width="100%">
+        <div class="des">
+            <h3>MK TRAVELS</h3>
+            <p>VIRUDHUNAGAR to CHENNAI</p>
+            <p>08:00 pm &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp;05:00 am</p>
+            <p><b>INR 1000<b></p>
+            <a href="seat_avail.php" type="button" class="btn" style="text-decoration: none;">BOOK NOW<a>
+        </div>
+    </div>
+    <div class="card">
+        <img src="./images/bus12.jpg" width="100%">
+        <div class="des">
+            <h3>MSD TRAVELS</h3>                
+            <p>VIRUDHUNAGAR to CHENNAI</p>
+            <p>10:00 pm &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp;07:00 am</p>
+            <p><b>INR 1200<b></p>
+            <a href="seat_available.php" type="button" class="btn" style="text-decoration: none;">BOOK NOW<a>
+        </div>
+    </div>
+
+</div>
+<script src="./assets/js/jquery.min.js"></script>
+    <script src="./assets/js/bootstrap.min.js"></script>
+
+</body>
+</html>

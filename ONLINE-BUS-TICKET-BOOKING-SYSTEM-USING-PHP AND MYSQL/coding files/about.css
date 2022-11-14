@@ -1,0 +1,15 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    /* background-color: linear-gradient(255deg cyan,red); */
+    background-color:#3399ff;
+}
+.container{
+    background-color: aliceblue;
+}
+h2:hover{
+    text-decoration:underline burlywood;
+}
